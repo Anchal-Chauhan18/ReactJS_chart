@@ -1,0 +1,36 @@
+  .datacard {
+    width: 218px;
+    border: 1px solid #ddd;
+    padding: 20px ;
+    text-align: center;
+    margin: 10px 10px;
+  }
+  
+  .title {
+    font-weight: 500;
+    margin-bottom: 10px;
+    color:#2e2e43 ;
+    font-size: 1.5em;
+  }
+  
+  .value {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    color:#2e2e43 ;
+  }
+  
+  .change {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  
+  .positive {
+    color: green;
+  }
+  
+  .negative {
+    color: red;
+  }

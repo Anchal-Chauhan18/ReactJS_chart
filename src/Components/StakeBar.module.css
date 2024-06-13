@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    margin: 0 ;
+  }
+  .card {
+    border: 1px solid #2e2e43;
+    background-color: #2e2e43;
+    padding: 20px 30px;
+    color: #fff;
+    width: 350px;
+  }
+  .cardtitle {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }  
+  .cardlist {
+    list-style: none;
+    padding: 0;
+  }  
+  .carditem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cardlabel {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .cardprogress {
+    height: 6px;
+    background-color: #fff;
+    border-radius: 4px;
+    flex-grow: 1;
+  }
+  
+  .cardprogressfill {
+    height: 6px;
+    background-color: #5e5ee6;
+    border-radius: 4px;
+  }
